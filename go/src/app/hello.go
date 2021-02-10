@@ -13,5 +13,5 @@ func main() {
 func HelloServer(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintf(w, "Hello, World!")
     fmt.Fprintf(w,"\n")
-    fmt.Fprintf(w,"Version:1.0")
+    fmt.Fprintf(w,"Version:2.0")
 }
